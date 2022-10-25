@@ -1,5 +1,5 @@
 import { google } from "googleapis";
-import constants from "./common/constants.mjs";
+import constants from "./constants.mjs";
 
 export default {
   type: "app",
