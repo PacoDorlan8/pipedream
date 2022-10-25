@@ -1,6 +1,6 @@
 import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
 import querystring from "query-string";
-import constants from "./common/constants.mjs";
+import constants from "./constants.mjs";
 
 export default {
   type: "app",
