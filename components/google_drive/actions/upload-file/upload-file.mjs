@@ -4,18 +4,18 @@ import {
   getFileStream,
   streamToBuffer,
   byteToMB,
-} from "../../common/utils.mjs";
-import { omitEmptyStringValues } from "../../common/utils.mjs";
+} from "../../utils.mjs";
+import { omitEmptyStringValues } from "../../utils.mjs";
 import {
   GOOGLE_DRIVE_UPLOAD_TYPE_MEDIA,
   GOOGLE_DRIVE_UPLOAD_TYPE_RESUMABLE,
-} from "../../common/constants.mjs";
+} from "../../constants.mjs";
 
 export default {
   key: "google_drive-upload-file",
   name: "Upload File",
   description: "Copy an existing file to Google Drive. [See the docs](https://developers.google.com/drive/api/v3/manage-uploads) for more information",
-  version: "0.0.7",
+  version: "0.0.6",
   type: "action",
   props: {
     googleDrive,
